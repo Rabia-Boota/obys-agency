@@ -30,4 +30,12 @@ Magnet Effect on Nav..........1:12:50
 
 search... npm > sheryjs >  css style sheet ko copy kr k style k upr paste kia, then js ko copy kr k script.js k upr paste kia then magnet wgera jo code uthany , wo utha k andr apny target k lye changing kr do.
 
+
 Creating Page1 (2) ............ 1:16:00
+github commit2 ...... 1:25:45
+Creating Page2 (2) ............ 1:26:10
+Video
+Video Image
+Video Cursor .......... 1:35:50
+
+Creating Page3 ........... 1:39:10
