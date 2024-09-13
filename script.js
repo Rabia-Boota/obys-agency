@@ -103,7 +103,7 @@ setInterval(function(){
     }
 })
 tl.to(".line h2",{
-    animationName:"anime",
+    animationName:"loaderAnime",
     opacity:1
 })
 tl.to("#loader", {

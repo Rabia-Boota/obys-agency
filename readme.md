@@ -38,4 +38,27 @@ Video
 Video Image
 Video Cursor .......... 1:35:50
 
-Creating Page3 ........... 1:39:10
+Creating Page3 ........... 1:39:15
+
+Creating Page4 (About Us).............1:41:00
+
+About blue page ..................... 1:51:26
+
+big line bellow blue div 1:59:42
+
+Creating Page5 .................... 2:00:10
+
+commit3 2:02:05
+
+Page5 Animation ............. 2:10:25
+
+Final Project - Making Footer .......... 2:17:40
+
+footer copywrite ......... 2:28:16
+Numbring lgana ......... 2:29:10
+
+
+
+// for mine, obys left side logo ki position fixed krni hai
+
+
