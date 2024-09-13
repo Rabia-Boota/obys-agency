@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-    <link rel="stylesheet" href="style.css">
+
     <link rel="shortcut icon" href="./favicone.png.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
     <title>Obys Agency</title>
 </head>
 <body>
-    <div id="crsr"></div>
+    <div id="crsr">
+
+    </div>
     <!-- hmein locomotive use krny to us k lye parent bnana prry ga jis k lye main div bna dein gy -->
      <!-- loading k time py scroll ni hota to us k lye ek div bnaya -->
       <div id="loader">
@@ -33,7 +35,7 @@
         </div>
       </div>
      <div id="main">
-        <div id="page1">
+        <div id="page1" data-scroll data-scroll-speed="-1">
             <div id="nav">
                 <svg class="brand__svg" width="71" height="27" viewBox="0 0 71 27">
                     <path d="M40.7622 24.5917C40.7622 23.6724 41.4511 22.9829 42.3697 22.9829C43.2883 22.9829 43.9773 23.6724 43.9773 24.5917C43.9773 25.511 43.2883 26.2005 42.3697 26.2005C41.566 26.2005 40.7622 25.3961 40.7622 24.5917Z" fill="currentColor"></path>
@@ -67,7 +69,7 @@
                         <h1>Experience</h1>
                 </div>
         </div>
-        <div id="page2">
+        <div id="page2" data-scroll data-scroll-speed="-2.5">
             <div id="video-container">
                 <div id="video-cursor">
                     <i class="ri-play-large-fill"></i>
@@ -76,14 +78,112 @@
                 <video autoplay loop muted src="https://obys.agency/wp-content/uploads/2022/11/Obys-Showreel-2022.mp4"></video>
             </div>
         </div>
-        <div id="page3"></div>
-        <div id="page4"></div>
+        <div id="page3" data-scroll data-scroll-speed="-2.5">
+            <h1>Our Projects</h1>
+            <div class="largeunderline"></div>
+            <div id="image-container">
+              <div class="image-div">
+                <img src="https://images.unsplash.com/photo-1583339824000-5afecfd41835?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <img src="https://images.unsplash.com/photo-1669063563191-b98e09349b17?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+            </div>
+        </div>
+        <div id="page4" data-scroll data-scroll-speed="-2.5">
+            <div id="page4-content">
+                <h1>About Obys</h1>
+                <div class="largeunderline"></div>
+                <p>Our agency is about people who love creating, designing and developing wow projects.In the same time we are a boutique agency that is more than the collective. We learn and grow, win and celebrate together.</p>
+                <div id="page4-flex">
+                    <img src="https://obys.agency/wp-content/uploads/2020/07/content-image01.jpg" alt="">
+                    <p>We are happy to present our new website and updated version of Obys agency. As before we are open for new projects worldwide!
+                        <br></br>
+                    Would you like to haveaward winning site orunique branding style,please say hi to ourmanager —info@obys.agency.
+                    And we will help you with the pleasure.</p>
+                </div>
+                <div id="page4-blue-div">
+                    <div class="blue-div-elem">
+                        <h4>Awwwards x16</h4>
+                        <p>SOTM, SOTD and Honrable Mentions</p>
+                    </div>
+                    <div class="blue-div-elem">
+                        <h4>Red Dot Award x1</h4>
+                        <p>Best of the Best</p>
+                    </div>
+                    <div class="blue-div-elem">
+                        <h4>FWA x11</h4>
+                        <p>FWA of The Day</p>
+                    </div>
+                    <div class="blue-div-elem">
+                        <h4>CSSDA x23</h4>
+                        <p>WOTM, WOTD and UI, UX, Innovation</p>
+                    </div>
+                    <div class="blue-div-elem">
+                        <h4>Behance x25</h4>
+                        <p>Interaction, Graphic Design</p>
+                    </div>
+                </div>
+                <div class="largeunderline"></div>
+            </div>
+
+
+        </div>
+        <div id="page5" data-scroll data-scroll-speed="-2.5">
+            <div class="line-container1">
+                <h1>Fashion - <span>Sport</span> - Technology -</h1>
+                <h1>Fashion - <span>Sport</span> - Technology -</h1>
+            </div>
+            <div class="line-container2">
+                <h1>Partners - Travel - <span>Science</span> -</h1>
+                <h1>Partners - Travel - <span>Science</span> -</h1>
+            </div>
+            <div class="line-container1">
+                <h1>Architecture - Real Estate - <span>Beauty</span> -</h1>
+                <h1>Architecture - Real Estate - <span>Beauty</span> -</h1>
+            </div>
+            <div class="line-container2">
+                <h1>Hotels - Automotive - <span>Music</span> -</h1>
+                <h1>Hotels - Automotive - <span>Music</span> -</h1>
+            </div>
+        </div>
+        <footer data-scroll data-scroll-speed="-2.5">
+            <h1>Let's Create</h1>
+            <div class="largeunderline">
+                <div id="footer-container">
+                    <div class="column">
+                        <h6>Socials</h6>
+                        <h5>Dribble</h5>
+                        <h5>Behance</h5>
+                        <h5>Instagram</h5>
+                        <h5>Facebook</h5>
+                        <h5>Twitter</h5>
+                        <h5>YouTube</h5>
+                    </div>
+                    <div class="column">
+                        <h6>Address</h6>
+                        <h5>Zamarstynivska 55 79019 Lviv Ukraine</h5>
+                    </div>
+                    <div class="column">
+                        <h6>Say Hi!</h6>
+                        <h5>info@obys.agency</h5>
+                    </div>
+            </div>
+            <div class="largeunderline"></div>
+            <h5>Obys Agency © 2023/h5>
+        </footer>
     </div>
     
-
+    <!-- locomotive -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- ScrollTrigger -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Three.js & ControlKit is needed for 3d Effects from npm>sheryjs>Required Libraries>last2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <!-- SheryJs -->
     <script  type="text/javascript"  src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script>
+    <!-- javascript -->
     <script src="script.js"></script>
 </body>
 </html>
