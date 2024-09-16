@@ -67,11 +67,16 @@ Using Shery.JS
 commit 4..............12:13
 Making Page3 ............12:13
 
-           ............... 16:01
+image container............... 16:01
 
 gooye canvas ..................26:26
 
 multiple images ................ 31:98
+
+Making Page3 (2) ........... 32:50
+Making Page3 (3) ........... 40:37
+
+Applying Animation .......... 49:40
 
 // for mine, obys left side logo ki position fixed krni hai
 
