@@ -76,7 +76,13 @@ multiple images ................ 31:98
 Making Page3 (2) ........... 32:50
 Making Page3 (3) ........... 40:37
 
-Applying Animation .......... 49:40
+Applying Animation (video button setting) .......... 49:40
+Video play and pause .......... 1:01:50
+Applying Effects .......... 1:07:02
+   Hero image move ..... 1:08:00
+   Footer text effect .... 1:14:42
+   JS ki library jis ki help sy text ki animation krty hain.
+   https://textillate.js.org/
 
 // for mine, obys left side logo ki position fixed krni hai
 
